@@ -8,8 +8,8 @@ public class Main {
     }
     static int summation(int[] a) {
         int total = 0;
-        for (int i : a)
-            total += i;
+        for (int number : a)
+            total += number;
         System.out.println("This value is: " + total);
         return total;
 
